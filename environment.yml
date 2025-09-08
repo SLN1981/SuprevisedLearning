@@ -1,0 +1,23 @@
+name: supervised-learning
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - jupyter
+  - notebook
+  - tensorflow
+  - keras
+  - pytorch
+  - torchvision
+  - pip
+  - pip:
+    - opencv-python
+    - tensorboard
+    - tqdm
